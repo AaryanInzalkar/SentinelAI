@@ -1,24 +1,26 @@
-# Backend
-fastapi
-uvicorn
-sqlalchemy
-pydantic
-pydantic-settings
-passlib[bcrypt]
-python-jose[cryptography]
-python-multipart
-opencv-python-headless
-ultralytics
-torch
-numpy
-pandas
-scikit-learn
-xgboost
-pytest
-httpx
 
+# Backend
+fastapi==0.139.2
+uvicorn==0.51.0
+sqlalchemy==2.0.51
+pydantic==2.13.4
+pydantic-settings==2.14.2
+passlib[bcrypt]==1.7.4
+python-jose[cryptography]==3.5.0
+python-multipart==0.0.32
+opencv-python-headless==5.0.0.93
+ultralytics==8.4.104
+torch==2.13.0
+numpy==2.5.1
+pandas==3.0.3
+scikit-learn==1.9.0
+xgboost==3.3.0
+pytest==9.1.1
+httpx==0.28.1
+ 
 # Frontend
-streamlit
-plotly
-requests
-pillow
+streamlit==1.60.0
+plotly==6.9.0
+requests==2.34.2
+pillow==12.3.0
+ 
