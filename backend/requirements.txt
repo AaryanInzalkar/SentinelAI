@@ -1,0 +1,17 @@
+fastapi
+uvicorn
+sqlalchemy
+pydantic
+pydantic-settings
+passlib[bcrypt]
+python-jose[cryptography]
+python-multipart
+opencv-python-headless
+ultralytics
+torch
+numpy
+pandas
+scikit-learn
+xgboost
+pytest
+httpx

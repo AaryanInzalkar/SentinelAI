@@ -1,0 +1,1 @@
+# SentinelAI Frontend Components Package

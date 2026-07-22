@@ -1,0 +1,152 @@
+/* SentinelAI - Enterprise Dark-Navy Theme stylesheet */
+
+/* General background overrides */
+.stApp {
+    background-color: #080B10;
+    color: #E2E8F0;
+    font-family: 'Inter', -apple-system, sans-serif;
+}
+
+/* Sidebar Custom Styling */
+section[data-testid="stSidebar"] {
+    background-color: #0E131F !important;
+    border-right: 1px solid #1E293B;
+}
+
+section[data-testid="stSidebar"] .stMarkdown h2 {
+    color: #2563EB;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+}
+
+/* Main Dashboard Title */
+h1 {
+    font-weight: 800 !important;
+    color: #F8FAFC !important;
+    letter-spacing: -0.02em;
+    margin-bottom: 20px !important;
+}
+
+h2, h3, h4 {
+    color: #E2E8F0 !important;
+    font-weight: 600 !important;
+}
+
+/* Reusable UI Cards */
+div.metric-card {
+    background-color: #121824;
+    border: 1px solid #1E293B;
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 15px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+div.metric-card:hover {
+    border-color: #2563EB;
+    transform: translateY(-2px);
+    box-shadow: 0 10px 15px -3px rgba(37, 99, 235, 0.1), 0 4px 6px -2px rgba(37, 99, 235, 0.05);
+}
+
+div.metric-title {
+    font-size: 14px;
+    color: #94A3B8;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    margin-bottom: 6px;
+}
+
+div.metric-value {
+    font-size: 28px;
+    color: #F8FAFC;
+    font-weight: 700;
+}
+
+div.metric-status-healthy {
+    color: #22C55E;
+    font-weight: 600;
+}
+
+div.metric-status-warning {
+    color: #F59E0B;
+    font-weight: 600;
+}
+
+/* Live Alert Feed Alert Cards */
+div.alert-item-critical {
+    border-left: 4px solid #EF4444 !important;
+    background-color: #1A1216 !important;
+    border: 1px solid #3B1C22;
+    border-radius: 8px;
+    padding: 12px;
+    margin-bottom: 10px;
+}
+
+div.alert-item-warning {
+    border-left: 4px solid #F59E0B !important;
+    background-color: #1C1813 !important;
+    border: 1px solid #3F2F1D;
+    border-radius: 8px;
+    padding: 12px;
+    margin-bottom: 10px;
+}
+
+div.alert-title {
+    font-weight: 700;
+    color: #F8FAFC;
+    font-size: 14px;
+    margin-bottom: 4px;
+}
+
+div.alert-meta {
+    font-size: 12px;
+    color: #94A3B8;
+}
+
+/* Buttons */
+.stButton>button {
+    background-color: #2563EB !important;
+    color: #FFFFFF !important;
+    border: none !important;
+    border-radius: 8px !important;
+    padding: 10px 24px !important;
+    font-weight: 600 !important;
+    transition: all 0.2s ease !important;
+}
+
+.stButton>button:hover {
+    background-color: #1D4ED8 !important;
+    box-shadow: 0 0 12px rgba(37, 99, 235, 0.4) !important;
+}
+
+/* Style stream viewer canvas borders */
+div[data-testid="stImage"] > img {
+    border-radius: 12px;
+    border: 2px solid #1E293B;
+    box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.5);
+}
+
+/* Tables styling override */
+div[data-testid="stTable"] {
+    background-color: #0F172A;
+    border-radius: 8px;
+    border: 1px solid #1E293B;
+}
+
+/* Scrollbars custom styling */
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+::-webkit-scrollbar-track {
+    background: #080B10;
+}
+::-webkit-scrollbar-thumb {
+    background: #1E293B;
+    border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #2563EB;
+}
