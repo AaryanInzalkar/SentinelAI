@@ -1,4 +1,5 @@
 # SentinelAI 🛡️
+![Tests](https://github.com/AaryanInzalkar/SentinelAI/actions/workflows/tests.yml/badge.svg)
 
 **AI-powered surveillance intelligence engine** — detects people in video feeds, tracks their behavior, and flags suspicious activity in real time with human-readable, explainable reasoning.
 
