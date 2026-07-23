@@ -4,6 +4,7 @@ uvicorn==0.51.0
 sqlalchemy==2.0.51
 pydantic==2.13.4
 pydantic-settings==2.14.2
+email-validator==2.3.0
 passlib[bcrypt]==1.7.4
 python-jose[cryptography]==3.5.0
 python-multipart==0.0.32
