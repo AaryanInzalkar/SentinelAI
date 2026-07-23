@@ -105,4 +105,4 @@ pytest backend/tests/
 - Notification integrations (email, Slack, SMS)
 
 ## License
-No license specified yet — add one (e.g. MIT) if you plan to make this public/open source.
+MIT
