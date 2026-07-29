@@ -2,7 +2,8 @@ import streamlit as st
 import requests
 from typing import Dict, Any, Optional, List
 
-BASE_URL = "http://localhost:8000"
+import os
+BASE_URL = os.environ.get("BACKEND_URL", "http://localhost:8000")
 
 class APIClient:
     @staticmethod
