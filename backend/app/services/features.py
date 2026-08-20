@@ -48,19 +48,24 @@ class FeatureExtractor:
                 history["centroids"].pop(0)
                 history["timestamps"].pop(0)
                 
-            # 3. Calculate speed (pixels per second based on last 5 frames)
+            # 3. Calculate speed: median of per-segment speeds over the last 5 frames.
+            # Using the median (not total distance/total time) means a single anomalous
+            # jump — e.g. the tracker reassigning an ID after brief occlusion — gets
+            # ignored instead of skewing the whole reading.
             speed = 0.0
-            if len(history["centroids"]) >= 2:
+            if len(history["centroids"]) >= 3:
                 recent_pts = history["centroids"][-5:]
                 recent_times = history["timestamps"][-5:]
-                dist = 0.0
+                segment_speeds = []
                 for i in range(len(recent_pts) - 1):
                     p1 = np.array(recent_pts[i])
                     p2 = np.array(recent_pts[i+1])
-                    dist += np.linalg.norm(p2 - p1)
-                time_diff = recent_times[-1] - recent_times[0]
-                if time_diff > 0.01:
-                    speed = dist / time_diff
+                    dist = np.linalg.norm(p2 - p1)
+                    dt = recent_times[i+1] - recent_times[i]
+                    if dt > 0.001:
+                        segment_speeds.append(dist / dt)
+                if segment_speeds:
+                    speed = float(np.median(segment_speeds))
                     
             # 4. Check restricted zone containment and calculate dwell times
             active_zones = {}

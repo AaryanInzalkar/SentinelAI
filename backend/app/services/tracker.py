@@ -32,6 +32,8 @@ class Tracker:
                     for i in range(len(ids)):
                         cls_id = clss[i]
                         label = result.names[cls_id]
+                        if label != "person":
+                            continue
                         tracked_objects.append({
                             "track_id": ids[i],
                             "box": xyxy[i],  # [x1, y1, x2, y2]
@@ -47,6 +49,8 @@ class Tracker:
                         conf = float(box.conf[0])
                         cls = int(box.cls[0])
                         label = result.names[cls]
+                        if label != "person":
+                            continue
                         tracked_objects.append({
                             "track_id": -1,  # Not tracked yet
                             "box": xyxy,

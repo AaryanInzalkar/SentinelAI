@@ -38,6 +38,12 @@ class RiskEngine:
             for _ in range(25):
                 X.append([np.random.uniform(120, 250), np.random.uniform(1, 5), 1])
                 y.append(1)
+
+            # Normal: briefly passing through a restricted zone (low dwell, normal speed)
+            # — this is the case that was missing, causing false positives on any zone entry
+            for _ in range(35):
+                X.append([np.random.uniform(30, 100), np.random.uniform(0, 3), 1])
+                y.append(0)
                 
             X = np.array(X)
             y = np.array(y)
