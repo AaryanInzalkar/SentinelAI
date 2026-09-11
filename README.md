@@ -151,6 +151,3 @@ pytest backend/tests/
 
 ## License
 MIT
-
-## License
-MIT
