@@ -127,26 +127,5 @@ pytest backend/tests/
 
 </details>
 
-**System Architecture**
-<img src="docs/01_architecture.png" width="600"/>
-
-**Entity-Relationship (ER) Diagram**
-<img src="docs/02_er.png" width="600"/>
-
-**Class / Component Diagram**
-<img src="docs/03_class.png" width="600"/>
-
-**Use Case Diagram**
-<img src="docs/04_usecase.png" width="600"/>
-
-**Workflow / Process Diagram**
-<img src="docs/05_workflow.png" width="400"/>
-
-**Sequence Diagram**
-<img src="docs/06_sequence.png" width="700"/>
-
-</details>
-
-
 ## License
 MIT
