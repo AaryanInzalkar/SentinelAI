@@ -110,22 +110,47 @@ pytest backend/tests/
 <details>
 <summary>Click to expand: System Architecture, ER, Class, Use Case, Workflow &amp; Sequence Diagrams</summary>
 
+<p align="center"><b>System Architecture</b></p>
+<p align="center">
+  <img src="docs/01_architecture.png" width="850" style="border:1px solid #444; border-radius:8px; padding:6px; background:white;"/>
+</p>
+
+<br/>
+
 <table>
   <tr>
-    <td align="center"><b>System Architecture</b><br/><img src="docs/01_architecture.png" width="380"/></td>
-    <td align="center"><b>Entity-Relationship (ER) Diagram</b><br/><img src="docs/02_er.png" width="380"/></td>
+    <td align="center" width="50%">
+      <b>Entity-Relationship (ER) Diagram</b><br/><br/>
+      <img src="docs/02_er.png" width="400" style="border:1px solid #444; border-radius:8px; padding:6px; background:white;"/>
+    </td>
+    <td align="center" width="50%">
+      <b>Class / Component Diagram</b><br/><br/>
+      <img src="docs/03_class.png" width="400" style="border:1px solid #444; border-radius:8px; padding:6px; background:white;"/>
+    </td>
   </tr>
   <tr>
-    <td align="center"><b>Class / Component Diagram</b><br/><img src="docs/03_class.png" width="380"/></td>
-    <td align="center"><b>Use Case Diagram</b><br/><img src="docs/04_usecase.png" width="380"/></td>
-  </tr>
-  <tr>
-    <td align="center"><b>Workflow / Process Diagram</b><br/><img src="docs/05_workflow.png" width="380"/></td>
-    <td align="center"><b>Sequence Diagram</b><br/><img src="docs/06_sequence.png" width="380"/></td>
+    <td align="center" width="50%">
+      <b>Use Case Diagram</b><br/><br/>
+      <img src="docs/04_usecase.png" width="400" style="border:1px solid #444; border-radius:8px; padding:6px; background:white;"/>
+    </td>
+    <td align="center" width="50%">
+      <b>Sequence Diagram</b><br/><br/>
+      <img src="docs/06_sequence.png" width="400" style="border:1px solid #444; border-radius:8px; padding:6px; background:white;"/>
+    </td>
   </tr>
 </table>
 
+<br/>
+
+<p align="center"><b>Workflow / Process Diagram</b></p>
+<p align="center">
+  <img src="docs/05_workflow.png" width="320" style="border:1px solid #444; border-radius:8px; padding:6px; background:white;"/>
+</p>
+
 </details>
+
+## License
+MIT
 
 ## License
 MIT
