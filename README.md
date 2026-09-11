@@ -105,5 +105,26 @@ pytest backend/tests/
 - Cloud storage for snapshots/video
 - Notification integrations (email, Slack, SMS)
 
+## Design Diagrams
+
+**System Architecture**
+![Architecture](docs/01_architecture.png)
+
+**Entity-Relationship (ER) Diagram**
+![ER Diagram](docs/02_er.png)
+
+**Class / Component Diagram**
+![Class Diagram](docs/03_class.png)
+
+**Use Case Diagram**
+![Use Case Diagram](docs/04_usecase.png)
+
+**Workflow / Process Diagram**
+![Workflow](docs/05_workflow.png)
+
+**Sequence Diagram**
+![Sequence Diagram](docs/06_sequence.png)
+
+
 ## License
 MIT
