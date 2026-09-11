@@ -107,23 +107,28 @@ pytest backend/tests/
 
 ## Design Diagrams
 
+<details>
+<summary>Click to expand: System Architecture, ER, Class, Use Case, Workflow &amp; Sequence Diagrams</summary>
+
 **System Architecture**
-![Architecture](docs/01_architecture.png)
+<img src="docs/01_architecture.png" width="600"/>
 
 **Entity-Relationship (ER) Diagram**
-![ER Diagram](docs/02_er.png)
+<img src="docs/02_er.png" width="600"/>
 
 **Class / Component Diagram**
-![Class Diagram](docs/03_class.png)
+<img src="docs/03_class.png" width="600"/>
 
 **Use Case Diagram**
-![Use Case Diagram](docs/04_usecase.png)
+<img src="docs/04_usecase.png" width="600"/>
 
 **Workflow / Process Diagram**
-![Workflow](docs/05_workflow.png)
+<img src="docs/05_workflow.png" width="400"/>
 
 **Sequence Diagram**
-![Sequence Diagram](docs/06_sequence.png)
+<img src="docs/06_sequence.png" width="700"/>
+
+</details>
 
 
 ## License
