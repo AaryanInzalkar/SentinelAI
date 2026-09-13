@@ -19,6 +19,24 @@ SentinelAI turns a plain video feed (webcam, file, or IP camera) into a smart mo
 - 📊 **Dashboard & analytics** — live monitoring, alerts log, incidents log, and reporting via a Streamlit UI
 - 🔐 **JWT authentication** for the API and frontend
 
+## Screenshots
+
+<details>
+<summary>Click to expand: Application Screenshots</summary>
+
+<table>
+  <tr>
+    <td align="center"><b>Login Page</b><br/><img src="screenshots/Login Page.jpeg" width="380"/></td>
+    <td align="center"><b>Live Surveillance</b><br/><img src="screenshots/Live Surveillance.jpeg" width="380"/></td>
+  </tr>
+  <tr>
+    <td align="center"><b>Surveillance Dashboard</b><br/><img src="screenshots/Surveillance Dashboard.jpeg" width="380"/></td>
+    <td align="center"><b>Threat Log</b><br/><img src="screenshots/Threat Log.jpeg" width="380"/></td>
+  </tr>
+</table>
+
+</details>
+
 ## Architecture
 
 ```
