@@ -26,12 +26,20 @@ SentinelAI turns a plain video feed (webcam, file, or IP camera) into a smart mo
 
 <table>
   <tr>
-    <td align="center"><b>Login Page</b><br/><img src="screenshots/Login Page.jpeg" width="380"/></td>
-    <td align="center"><b>Live Surveillance</b><br/><img src="screenshots/Live Surveillance.jpeg" width="380"/></td>
+    <td align="center"><b>Login Page</b><br/><img src="Screenshots/Login%20Page.jpeg" width="380"/></td>
+    <td align="center"><b>Live Surveillance</b><br/><img src="Screenshots/Live%20Surveillance.jpeg" width="380"/></td>
   </tr>
   <tr>
-    <td align="center"><b>Surveillance Dashboard</b><br/><img src="screenshots/Surveillance Dashboard.jpeg" width="380"/></td>
-    <td align="center"><b>Threat Log</b><br/><img src="screenshots/Threat Log.jpeg" width="380"/></td>
+    <td align="center"><b>Surveillance Dashboard</b><br/><img src="Screenshots/Surveillance%20Dashboard.jpeg" width="380"/></td>
+    <td align="center"><b>Threat Log</b><br/><img src="Screenshots/Threat%20Log.jpeg" width="380"/></td>
+  </tr>
+  <tr>
+    <td align="center"><b>Camera Node Administration</b><br/><img src="Screenshots/Camera%20Node%20Administration.jpeg" width="380"/></td>
+    <td align="center"><b>Restricted Zones Manager</b><br/><img src="Screenshots/Restricted%20Zones%20Manager.jpeg" width="380"/></td>
+  </tr>
+  <tr>
+    <td align="center"><b>Portal and Pipeline Settings</b><br/><img src="Screenshots/Portal%20and%20Pipeline%20settings.jpeg" width="380"/></td>
+    <td align="center"><b>Threat Intelligence Report</b><br/><img src="Screenshots/Threat%20Intelligence%20Report.jpeg" width="380"/></td>
   </tr>
 </table>
 
